@@ -1,0 +1,82 @@
+I added a -c flag to silence the console when in verbose log mode. 
+Simply type ./oss -v -c top get the verbosity in the log while making the display more clear
+
+This is the second submission as the first one did not work on hoare due to environmental differences. I installed centos 7 at home and reworked it until I got it to work. I had to add some compiler flags as well as use c99 compiler.
+
+commit 9388c26e301e20da5d99fbae1881f577280df8de
+Author: kaufman <robertkaufman@live.com>
+Date:   Fri Nov 20 00:22:51 2020 -0600
+
+    removed objects
+
+commit 95a0012e7a3023dcae10baa58899e3ce82188890
+Author: kaufman <robertkaufman@live.com>
+Date:   Fri Nov 20 00:12:28 2020 -0600
+
+    final 'good enough' commit
+
+commit f695426d0014c5c5122bc6417b41c322dd9189e1
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 23:47:03 2020 -0600
+
+    fix to logging data
+
+commit 5080d4cb0b06f8f7e12797e60daa2f84ac0b48ff
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 23:33:46 2020 -0600
+
+    ficxed bug in c\lock where blocked clock was incrementing with realtime and added more logging
+
+commit a266f5c48b366c98ed0a8a9c4068b5c4c1535510
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 23:29:05 2020 -0600
+
+    Logging is the bane of my existence
+
+commit 14c4aab65f2370adbfc84de9129d66acdb7b6bc6
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 23:12:46 2020 -0600
+
+    More loggin and additiions to README. Fixed issue in oss with improper timekeeping in the downtime clock
+
+commit 22273934927b8051b14fb25e86cc312b82b9727a
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 20:50:02 2020 -0600
+
+    Added readme file and fixed a crash that I was getting due to an inadequately sized buffer for writing to logfile
+
+commit c6a798a9f75dddedf667ab47972826668af50b06
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 20:15:38 2020 -0600
+
+    Implimented clock to keep track of blocked processes time. Added additional information to the logging
+
+commit f6c8f43e993dfd8217831a1ff84e77aef968635a
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 18:30:37 2020 -0600
+
+    Radomized total available resource between 1-10 and worked onresources.c to allocate them
+
+commit 0ba86dd3e31a505ae5b6a6c220a920a1a08da92c
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 17:29:32 2020 -0600
+
+    Fixed signal handler issue where sigterm wsn't being handled correctly
+
+commit 3e46761a239ce5c6a94d6ad38fa9ada2e16ba4aa
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 17:05:55 2020 -0600
+
+    Aded and modified bankers algorithm for resource allocation and deadlock avoidance
+
+commit 98059e404756ff5c0ad2513e6600028e25a14262
+Author: kaufman <robertkaufman@live.com>
+Date:   Thu Nov 19 16:39:38 2020 -0600
+
+    Modified shared memory for clock and resources
+
+commit 79716504a9f766e143eac4bf27f17a6780cf723c
+Author: kaufman <robertkaufman@live.com>
+Date:   Tue Nov 17 19:54:33 2020 -0600
+
+    Have to start this somewhere. Initial commit

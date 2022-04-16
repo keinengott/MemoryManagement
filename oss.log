@@ -1,0 +1,226 @@
+oss: Blocking P15 while R13 is busy at time 26:595,955,262
+oss: Blocking P3 while R13 is busy at time 26:607,186,321
+oss: Blocking P10 while R14 is busy at time 26:610,384,731
+oss: Blocking P6 while R14 is busy at time 42:173,766,972
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+P1   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+P4   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7   0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   1   0   0   0   1   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P10  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P11  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   
+P12  0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P13  1   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+
+oss: Unblocking P15 and allocating resource to R13 at time 42:184,963,654
+oss: Blocking P18 while R14 is busy at time 42:186,113,119
+oss: Blocking P5 while R14 is busy at time 60:780,279,464
+oss: Unblocking P10 and allocating resource to R14 at time 60:784,724,120
+oss: Unblocking P3 and allocating resource to R13 at time 60:786,195,719
+oss: Unblocking P6 and allocating resource to R14 at time 70:562,839,018
+oss: Blocking P16 while R14 is busy at time 70:564,786,917
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   0   0   0   0   0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   1   0   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   0   0   0   0   0   0   0   1   0   0   0   0   0   1   0   0   0   0   0   0   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P10  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P12  0   1   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P13  1   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+
+oss: Blocking P10 while R13 is busy at time 89:313,904,100
+oss: Blocking P15 while R14 is busy at time 117:199,954,898
+oss: Blocking P1 while R13 is busy at time 117:201,205,296
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   1   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   1   0   0   0   0   0   0   1   0   1   0   1   0   1   0   0   0   0   0   0   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P10  0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+P12  0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P13  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+
+oss: Blocking P6 while R2 is busy at time 144:973,000,544
+oss: Blocking P12 while R14 is busy at time 154:561,403,920
+oss: Unblocking P6 and allocating resource to R2 at time 173:142,999,569
+oss: Blocking P9 while R14 is busy at time 173:146,695,526
+oss: Unblocking P10 and allocating resource to R13 at time 182:498,733,381
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   0   1   0   0   0   0   0   1   0   1   0   1   0   1   0   0   0   0   0   0   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+P10  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P12  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P13  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+
+oss: Blocking P11 while R2 is busy at time 191:798,123,785
+oss: Unblocking P11 and allocating resource to R2 at time 220:175,621,288
+oss: Unblocking P18 and allocating resource to R14 at time 220:176,295,807
+oss: Unblocking P5 and allocating resource to R14 at time 229:307,453,259
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   1   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   1   0   0   0   1   0   0   
+P5   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7   0   0   1   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   1   0   0   0   0   0   0   1   0   0   0   0   0   0   0   
+P10  0   1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P12  0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   
+P13  0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   1   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P16  0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   1   0   1   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+oss: Blocking P4 while R14 is busy at time 247:688,488,665
+oss: Unblocking P16 and allocating resource to R14 at time 265:754,353,999
+oss: Unblocking P15 and allocating resource to R14 at time 275:309,703,472
+oss: Blocking P17 while R2 is busy at time 275:312,759,953
+oss: Unblocking P12 and allocating resource to R14 at time 283:486,207,314
+oss: Blocking P3 while R14 is busy at time 283:486,997,978
+oss: Blocking P18 while R19 is busy at time 283:492,791,972
+oss: Unblocking P18 and allocating resource to R19 at time 283:493,335,132
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   1   1   1   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   1   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+P7   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   
+P10  0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   
+P12  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P13  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1   1   
+
+oss: Exiting at time 292:471,531,102 because 5 simulated clock seconds have elapsed
+
+                               Currently Allocated Resources
+     R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0   0   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P2   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   1   1   1   
+P3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P4   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   
+P5   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   1   
+P6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   
+P7   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   
+P10  0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   
+P11  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   
+P12  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   
+P13  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P14  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P16  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P17  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1   1   
+
+                               Resource Summary
+0%ný
+Total Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  5   1   5   2   9   5   8   3   4   7   8   4   1   1   2   8   3   8   3   5   
+0%ný
+Total Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  5   1   5   2   9   5   8   3   4   7   8   4   1   1   2   8   3   8   3   5   
+
+Allocated Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  1   1   0   0   2   0   2   1   0   1   0   0   1   1   0   1   0   6   3   4   
+0%ný
+Total Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  5   1   5   2   9   5   8   3   4   7   8   4   1   1   2   8   3   8   3   5   
+
+Allocated Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  1   1   0   0   2   0   2   1   0   1   0   0   1   1   0   1   0   6   3   4   
+
+Available Resources
+  R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+  4   0   5   2   7   5   6   2   4   6   8   4   0   0   2   7   3   2   0   1   
+
+Blocked Processes
+  R 1: 17 
+  R12:  1 
+  R13:  9  4  3 
+Run Statistics
+  Total Requests Made      : 125
+  Requests Granted         : 120
+  Granted/Total requests   : 96.00%
+  Time Blocked             : 1,090:805,773,725
+  Deadlock Avoidance Runs  : 120
+
+oss: killing children with SIGTERM
+oss: Removing message queues and shared memory
+oss: waiting on children
